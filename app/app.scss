@@ -1,0 +1,56 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~nativescript-theme-core/scss/forest';
+
+// Override variables here
+
+@import '~nativescript-theme-core/scss/index';
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+.fa {
+    font-family: 'FontAwesome', 'fontawesome-webfont';
+    font-size: 24px;
+}
+ActionBar {
+    background-color: #4f617d;
+    color: #ffffff;
+}
+.header-title {
+    font-weight: 500;
+}
+
+// Login style
+.show-loading {
+  background-color: #53ba82;
+	color: #fff;
+  padding: 4.5 5;
+  border-radius:5;
+}
+.login-input {
+  color: #fff;
+}
+.btn-login {
+  background-color: #53ba82;
+  color: #fff;
+  padding: 19;
+  border-radius: 27;
+}
+//End login style
+
+//Greeting style
+.bg-color {
+  background-image: url('~/assets/images/loginbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color:rgba(60,73,94,0.2); */
+}
+.btn-greeting {
+  background-color:#4f617d;
+  color: #fff;
+  padding: 19;
+}
+.landscape .hello-content {
+  min-height: 210;
+}
+  //End greeting style
